@@ -1,0 +1,13 @@
+{
+  "name": "ChandyMan's Reddit Fix",
+  "version": "0.1",
+  "description": "Readds missing features from Reddit",
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*"],
+      "css": ["style.css"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "manifest_version": 2
+}

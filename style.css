@@ -1,0 +1,12 @@
+.chandy-button {
+  padding-right: 0.2em;
+  cursor: pointer;
+}
+
+.chandy-hidden .gOQskj {
+  display: none;
+}
+
+.chandy-hidden:not(.top-level) {
+  display: none;
+}
